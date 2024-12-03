@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="main">
+        <section>  
+          <h1>SIGN UP</h1>  
+          <div action="" id="Signupform">
+            <div>
+              <label for="fullname">Full Name</label><br />
+              <input type="text" id="fullname" placeholder="Enter full name "/> <br>
+              <span id="nameerror"></span><br>
+            </div>
+            
+            <div>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" placeholder="Enter email" /><br>
+            <span id="emailerror"></span> <br />
+            </div>
+            
+            <div>
+            <label for="phonenumber">Phone Number</label><br />
+            <input type="number" id="phonenumber" placeholder="Enter mobile number"/> <br>
+            <span id="numbererror"></span><br />
+            </div>
+            
+            <div>
+            <label for="birthdate">Date of Birth</label><br />
+            <input type="date" id="birthdate" /><br>
+            <span id="dateerror"></span><br />
+            </div>
+            
+            <div>
+            <label for="username">Username</label><br />
+            <input type="text" id="username" placeholder="User name"/> <br>
+            <span id="usernameerror"></span><br />
+            </div>
+            
+            <div>
+            <label for="password">Password</label><br />
+            <input type="password" id="password" placeholder="Enter password"/><br>
+            <span id="passworderror"></span><br />
+            </div>
+            
+            <div>
+            <label for="cpassword">Confirm Password</label><br />
+            <input type="password" id="cpassword" placeholder="Confirm password"/> <br>
+            <span id="cpassworderror"></span><br />
+            </div>
+                        
+          </div>
+          <div>
+          <center><button onclick="checkdata()"> <a href="login.html">Sign up</a></button></center>
+          </div>
+  
+          <div>Already have an account? <a href="login.html">Login</a></div>
+  
+        </section>
+  
+      </div>
+      <script src="signup.js"></script>
+</body>
+</html>

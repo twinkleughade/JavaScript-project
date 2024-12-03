@@ -1,0 +1,60 @@
+{
+  "product": [
+    {
+      "srnumber": "1",
+      "brandname": "nike",
+      "productname": "dress",
+      "price": "2500",
+      "id": "32a5"
+    },
+    {
+      "srnumber": "2",
+      "brandname": "lakme",
+      "productname": "sunscreen",
+      "price": "600",
+      "id": "e3f0"
+    },
+    {
+      "id": "8330",
+      "srnumber": "3",
+      "brandname": "mamaearth",
+      "productname": "facewash",
+      "price": "900"
+    },
+    {
+      "id": "2dd1",
+      "srnumber": "4",
+      "brandname": "fit me",
+      "productname": "Foundation",
+      "price": "3000"
+    },
+    {
+      "id": "40bf",
+      "srnumber": "5",
+      "brandname": "fit me",
+      "productname": "highlighter",
+      "price": "2500"
+    },
+    {
+      "id": "b46f",
+      "srnumber": "6",
+      "brandname": "olay",
+      "productname": "facecreme",
+      "price": "90"
+    },
+    {
+      "srnumber": "7",
+      "brandname": "roadster",
+      "productname": "jeans",
+      "price": "1500",
+      "id": "3497"
+    },
+    {
+      "id": "35ca",
+      "srnumber": "8",
+      "brandname": "puma",
+      "productname": "shoes",
+      "price": "5000"
+    }
+  ]
+}

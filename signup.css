@@ -1,0 +1,56 @@
+#main{
+    background-color: papayawhip;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main section{
+    background-color: papayawhip;
+    padding: 20px 50px 50px 50px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0);
+    color:black;
+    border-radius: 20px;
+}
+
+/*--------------------------------------                     heading                    ---------------------------------------- */
+#main section h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------                      input                      ------------------------------------------*/
+#main section input{
+    margin: 5px 0px 15px 0px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+/*-------------------------------------                       button                    -------------------------------------------*/
+button{
+    margin-bottom: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 5px;
+}
+button a{
+  color: black;
+}
+
+/* ------------------------------------                   account                       ------------------------------------------- */
+a{
+    text-decoration: none;
+    color: rgb(13, 13, 136);
+}
+span{
+    color: red;
+}
+#Signupform{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+}

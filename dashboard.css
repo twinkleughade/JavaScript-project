@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    
+}
+body{
+  /* width: 100%; */
+  /* overflow: hidden; */
+  overflow-x: hidden;
+}
+#main1{
+    height: 100vh;
+}
+#hero{
+    display: flex;
+    height: 100vh; 
+}
+#dashboard{
+    background-color: papayawhip;
+    color: black;
+    height: 100%;
+    width: 20%;
+    padding: 30px 0px 0px 0px;
+}
+#dashboard div{
+    padding: 15px 30px 15px 30px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+#dashboard div:hover{
+    background-color: white;
+    color: rgba(142, 48, 79, 0.986);
+}
+#dashboard div img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#dashboard div a{
+ text-decoration: none;
+color: black;
+}
+
+#main{
+    background-color: papayawhip;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    right: 15%;
+    display: none;
+}
+#main section{
+    background-color: papayawhip;
+    padding: 20px 50px 50px 50px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0);
+    color:black;
+    border-radius: 20px;
+}
+
+/* heding  */
+#main section h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* input */
+#main section input{
+    margin: 5px 0px 15px 0px;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+/* button */
+button{
+    margin-bottom: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 5px;
+}
+
+/* have and dont have href */
+a{
+    text-decoration: none;
+    color: rgb(13, 13, 136);
+}
+span{
+    color: red;
+}
+#Signupform{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+}
+.fa-user{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: papayawhip;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+.fa-user:hover{
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+#mainedit{
+    background-color: papayawhip;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    right: 25%;
+    display: none;
+}
+
+#mainedit section{
+    background-color: papayawhip;
+    padding: 20px 50px 50px 50px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px  rgb(0, 0, 0);
+    color: black;
+    border-radius: 20px;
+}
+
+#mainedit section h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#showdata #tabledata {
+    align-items: center;
+    width: 100%;
+
+}
+#table1{
+position: absolute;
+left: 25%;
+top: 15%;
+padding: 40px;
+/* overflow: scroll; */
+}
+#table1 thead tr {
+    background-color: papayawhip;
+    color: black;
+    text-align: center;
+  }
+  
+  #table1 th, #table1 td {
+    padding: 20px 65px;
+    border: 1px solid rgb(221, 221, 221);
+  }
+  
+  #table1 tbody tr:nth-of-type(even) {
+    background-color: rgb(191, 191, 191);
+  }
+  
+  #table1 tbody tr:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+  }
+  #table1 tbody tr i{
+    margin-right: 5px;
+    /* border: 1px solid black; */
+  }
+  #table1 tbody tr .fa-trash-can-arrow-up{
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    padding: 7px;
+    border-radius: 50%;
+  }
+  #table1 tbody tr .fa-trash-can-arrow-up:hover{
+    color: red;
+    background-color: rgb(191, 191, 191);
+  }
+  #table1 tbody tr .fa-pen-fancy{
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    padding: 7px;
+    border-radius: 50%;
+  }
+  #table1 tbody tr .fa-pen-fancy:hover{
+    color: papayawhip;
+    background-color: rgb(191, 191, 191);
+  }
+  #table1 body{
+    height: 400px;
+    overflow: scroll;
+  }
+  .fa-x{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  .fa-x:hover{
+   color:  rgb(191, 191, 191);
+   
+  }
+#btndiv{
+    width: 100%;
+}
+#btnadd
+{
+   position: absolute;
+   left: 55%;
+   top: 84px;
+   background-color: papayawhip;
+   color: black;
+   box-shadow: 0px 0px 3px black;
+   transition: background-color 0.3s ease;
+   cursor: pointer;
+}
+#btnadd:hover{
+    
+    background-color: rgba(142, 48, 79, 0.986);
+    box-shadow: 0px 0px 1px black;
+    
+    
+}
+#prodata{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    color: orange;
+}
+#usermessage{
+    position: absolute;
+    top: 50px;
+    right: 75px;
+}
+
+/* -----------------------about */
+
+#about {
+    background-color: rgb(244, 244, 244);
+    padding: 60px 20px;
+    text-align: center;
+    display: none;
+  }
+  
+  .aboutcontainer {
+    width: 100%;
+    margin: 0 auto;
+    
+    color: #333;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(235, 201, 136);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn:hover {
+    background-color: orange;
+  }
+
+  

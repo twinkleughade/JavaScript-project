@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main1">
+        <div id="hero">
+            <article id="dashboard">
+                <div><img src="https://dukaan.b-cdn.net/1000x1000/webp/1039647/5131fb08-c0ec-4ddc-aa8e-4ade459efb92.png" alt=""></div>
+                <div onclick="dashshow()" id="bardash">Dashboard</div>
+                <div onclick="prodis()" id="barprofile">Profile</div>
+                <div onclick="productdis()" id="barproduct">Product</div>
+                <div onclick="aboutdis()" id="barabou">About</div>
+                <div onclick="helpdis()" id="barhelp">Help</div><br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div><a href="index.html">logout</a></div> 
+            </article>
+            <article id="table">
+                <div id="btndiv"><button onclick="add()" id="btnadd">ADD DATA</button></div>
+                <table  id="table1">
+                    
+                        <thead>
+                            <tr>
+                                <th>Sno.</th>
+                                <th>Brand</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody id="showdata">
+                            
+                        </tbody>
+                    
+                </table>
+                
+            </article>
+
+            <!-- about section -->
+            <section id="about">
+              <div class="aboutcontainer">
+                <h2>About Us</h2>
+                <p>
+                  You & Me Shop is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, You & Me aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal. The brand is making a conscious effort to bring the power of fashion to shoppers with an array of the latest and trendiest products available in the country
+                </p>
+                <p>
+                  It understands its shoppers' needs and caters to them with choice of apparel, accessories, cosmetics and footwear from over 500 leading Indian and international brands. Prominent brands include Adidas, Nike, Puma, Catwalk, FabIndia and Biba to name a few. You can also shop from some recently introduced labels such as - Roadster, Sher Singh, Dressberry, Kook N Keech and ETC
+                </p>
+                <a href="" id="btn">Shop Now</a>
+              </div>
+            </section>
+
+          
+            
+
+            <div><h1 id="prodata"></h1></div>
+            
+        </div>
+
+        <div id="main" style="background: none">
+      
+            <section>
+      
+              <h1>NEW DATA</h1>
+              <i class="fa-solid fa-x" onclick="displayclose()"></i>
+              <div action="" id="Signupform">
+                <div>
+                  <label for="srnumber">Sr.Number</label><br />
+                  <input type="text" id="srnumber" placeholder="enter sr.number here"/>
+                  <br>
+                  <span id="nameerror"></span>
+                  <br>
+                </div>
+                
+                <div>
+                  <label for="brand">Brand Name</label><br />
+                <input type="text" id="brand" placeholder="enter brand here" /><br>
+                <span id="emailerror"></span>
+                <br />
+                </div>
+                
+                <div>
+                  <label for="product">Product Name</label><br />
+                <input
+                  type="text"
+                  id="product"
+                  placeholder="enter product name here"
+                /> <br>
+                <span id="numbererror"></span><br />
+                </div>
+                
+                <div>
+                  <label for="price">Price</label><br />
+                <input type="text" id="price" placeholder="enter price here"/>
+                <br>
+                <span id="dateerror"></span><br />
+                </div>
+                
+                
+              </div>
+              <div>
+                <center><button onclick="newdata()">ADD DATA</button></center>
+              </div>
+      
+              
+      
+            </section>
+      
+          </div>
+          <div id="mainedit" style="background: none">
+      
+            
+      
+          </div>
+          <script src="/signup.js"></script>
+          <script src="/dash.js"></script>
+
+    </div>
+</body>
+</html>
